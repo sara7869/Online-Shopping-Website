@@ -1,0 +1,97 @@
+/* CSS for Query form */
+
+#header {
+    width: fit-content;
+    width: -moz-fit-content;
+    display: inline-block;
+    font-size: 55px;
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+#query-images-container {
+    margin: 0 0.4rem;
+    width: 16rem;
+    float: right;
+}
+
+#query-images-container img {
+    width: 15rem;
+    display: block;
+    border: 0.3rem solid black;
+    float: right;
+}
+
+form {
+    border-color: #ECDAD9;
+    background-color: black;
+    padding-left: 1rem;
+    color: #ECDAD9;
+}
+
+fieldset {
+    border-radius: 0.5rem;
+    border-color: #ECDAD9;
+}
+
+label {
+    display: inline-block;
+    width: 8rem;
+}
+
+.inputspan {
+    background-color: #ECDAD9;
+    color: black;
+    outline: #B58E80;
+}
+
+#queryDetailsLabel {
+    vertical-align: top;
+}
+
+.warning {
+    color: red;
+}
+
+#warningQueryDetails {
+    vertical-align: top;
+}
+
+#viewQuery {
+    background-color: #ECDAD9;
+}
+
+#arrowUp {
+    padding-left: 1rem;
+    float: left;
+    width: 1rem;
+    height: 1rem;
+}
+
+#summaryView {
+    padding-left: 2rem;
+    display: none;
+    color: #ECDAD9;
+    width: 50%;
+}
+
+#summary {
+    border: 0.2rem solid #B58E80;
+    padding: 2rem;
+}
+
+#summary div {
+    padding: 0.5rem;
+}
+
+#summaryHeader {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.summaryButton {
+    background-color: #ECDAD9;
+}

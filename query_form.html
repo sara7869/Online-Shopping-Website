@@ -1,0 +1,129 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Query Form</title>
+
+    <link rel="icon" href="./images/Logo.jpeg">
+
+    <link rel="stylesheet" href="./query_form.css">
+    <link rel="stylesheet" href="./external_css.css">
+</head>
+
+<body>
+
+    <div id="navigationBarWrapper">
+        <div id="navigationBar">
+            <div><a>Presentation Page</a></div>
+            <div><a href="./index.html">Main Page</a></div>
+            <div><a href="./query_form.html">Query Form</a></div>
+            <div><a>Buy Products</a></div>
+            <div><a href="./diagram_svg.html">Diagram SVG</a></div>
+            <div><a href="./quiz.html">Quiz</a></div>
+            <div><a href="./thumbnail_images.html">Thumbnail Images</a></div>
+            <div><a href="./student_details.html">Student Details</a></div>
+        </div>
+    </div>
+
+    <h1><img id="logo" src="./images/Logo.jpeg" alt="Logo">
+        <b id="header">Query Form</b>
+    </h1>
+
+    <div id="query-images-container">
+        <img src="./images/Image_1.jpeg" alt="Man" />
+        <br><br>
+        <img src="./images/Image_6.webp" alt="Shoes" />
+    </div>
+    <br>
+    <div>
+        <form id="queryform" name="queryform" action="mailto:sarayusri17@gmail.com;" method="POST">
+            <fieldset>
+                <legend>Your Details</legend>
+                <br>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" class="inputspan" name="name" id="name">
+                    <small class="warning" id="warningName"></small>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="email">Email Address: </label>
+                    <input type="text" class="inputspan" name="email" id="email">
+                    <small class="warning" id="warningEmail"></small>
+                </div>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Query: </legend>
+                <br>
+                <div>Select the theme of your query.</div>
+                <small class="warning" id="warningQueryTheme"></small>
+                <br><br>
+                <label for="delivery">Delivery</label>
+                <input type="radio" value="Delivery" name="queryTheme" id="delivery">
+                <br><br>
+                <label for="payment">Payment</label>
+                <input type="radio" value="Payment" name="queryTheme" id="payment">
+                <br><br>
+                <label for="quality">Quality</label>
+                <input type="radio" value="Quality" name="queryTheme" id="quality">
+                <br><br>
+                <label for="return">Return</label>
+                <input type="radio" value="Return" name="queryTheme" id="return">
+                <br><br>
+                <label for="loyaltyProgram">Loyalty Program</label>
+                <input type="radio" value="Loyalty Program" name="queryTheme" id="loyaltyProgram">
+                <br><br>
+                <label for="other">Other</label>
+                <input type="radio" value="Other" name="queryTheme" id="other">
+                <br><br><br><br><br>
+                <label for="queryDetails" id="queryDetailsLabel">Query Details: </label>
+                <textarea name="comments" class="inputspan" id="queryDetails" rows="5" cols="60"></textarea>
+                <small class="warning" id="warningQueryDetails"></small>
+                <br><br>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <button type="button" id="viewQuery" name="viewQuery">View Query</button>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+    <br>
+    <br>
+
+    <div id="summaryView">
+        <div id="summary">
+            <div id="summaryHeader">Query Summary</div>
+            <br><br>
+            <div>Name: <span id="nameSpan"></span></div>
+            <div>Email: <span id="emailSpan"></span></div>
+            <div>Subject: <span id="queryThemeSpan"></span></div>
+            <div>Details: <span id="queryDetailsSpan"></span></div>
+        </div>
+        <br><br>
+        <button id="editButton" class="summaryButton">Edit</button>
+        <button id="sendButton" class="summaryButton">Send</button>
+    </div>
+    <br>
+
+    <a id="backToTop" href="#header">
+        <img id="arrowUp" src="./images/Up_Arrow.png" alt="Up Arrow" />
+        Back To Top
+    </a>
+    <br>
+
+    <a href="./page_editor_sara.html">Page Editor</a>
+
+    <script src="./query_form.js"></script>
+
+</body>
+
+</html>

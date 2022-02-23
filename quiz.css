@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image:url('background\ quiz.JPG');
+	background-repeat: round;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    color: rgba(107, 108, 109, 0.979);
+}
+
+.start{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.intro {
+    text-align: center;
+    padding-center: 320px; 
+    font-size: 30px;
+    color:white;
+}
+
+.luck{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+
+#button{
+    background-color:light-grey;
+    border-color:black;
+    color:black;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    
+}
+

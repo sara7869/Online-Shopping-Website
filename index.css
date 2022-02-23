@@ -1,0 +1,102 @@
+/* CSS for Main Page */
+
+#header {
+    width: fit-content;
+    width: -moz-fit-content;
+    display: inline-block;
+    font-size: 55px;
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+.main-images-container {
+    margin: auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    display: block;
+}
+
+.main-images-container>img {
+    margin: 0 0.4rem;
+}
+
+hr {
+    color: #ECDAD9;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#description {
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    color: #ECDAD9;
+    margin-right: 2rem;
+}
+
+.container2 {
+    margin: auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    display: block;
+    padding: 1rem;
+}
+
+.container2 img {
+    width: 208px;
+    background-color: black;
+}
+
+.product {
+    float: left;
+    background-color: white;
+    margin: 10px 10px 0 0;
+    width: 208px;
+}
+
+.imageDescription {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ECDAD9;
+    background-color: black;
+}
+
+#newToWebsite {
+    padding-top: 20rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    color: #ECDAD9;
+}
+
+#row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.guide {
+    display: none;
+    margin: auto;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.guideOptions {
+    font-size: 1rem;
+    color: #B58E80;
+}
+
+.guideDescription {
+    font-size: 1rem;
+    color: #ECDAD9;
+}
+
+#arrowUp {
+    padding-left: 1rem;
+    float: left;
+    width: 1rem;
+    height: 1rem;
+}

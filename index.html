@@ -1,0 +1,133 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Main Page</title>
+
+    <link rel="icon" href="./images/Logo.jpeg">
+
+    <link rel="stylesheet" href="./external_css.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="navigationBarWrapper">
+        <div id="navigationBar">
+            <div><a>Presentation Page</a></div>
+            <div><a href="./index.html">Main Page</a></div>
+            <div><a href="./query_form.html">Query Form</a></div>
+            <div><a>Buy Products</a></div>
+            <div><a href="./diagram_svg.html">Diagram SVG</a></div>
+            <div><a href="./quiz.html">Quiz</a></div>
+            <div><a href="./thumbnail_images.html">Thumbnail Images</a></div>
+            <div><a href="./student_details.html">Student Details</a></div>
+        </div>
+    </div>
+
+    <h1><img id="logo" src="./images/Logo.jpeg" alt="Logo"/>
+        <b id="header">Neko</b>
+    </h1>
+
+    <div class="main-images-container">
+        <img src="./images/Image_3.jpeg" alt="Girl">
+        <img src="./images/Image_5.jpeg" alt="Shoe">
+        <img src="./images/Image_2.jpeg" alt="Man">
+    </div>
+
+    <hr>
+
+    <div id="description">
+        Welcome to Neko!
+        <div style="margin-top: 1rem; font-size: 1.5rem;">We provide an online shoppping experience like no other. Get
+            the best quality sportsgear here!</div>
+    </div>
+
+    <div class="container2">
+        <div class="product">
+            <img id="shoes" src="./images/Image_7.webp" alt="shoes">
+            <div class="imageDescription">Shoes</div>
+        </div>
+        <div class="product">
+            <img id="men" src="./images/Image_8.webp" alt="men">
+            <div class="imageDescription">Men</div>
+        </div>
+        <div class="product">
+            <img id="women" src="./images/Image_9.jpg" alt="women">
+            <div class="imageDescription">Women</div>
+        </div>
+        <div class="product">
+            <img id="kids" src="./images/Image_10.webp" alt="kids">
+            <div class="imageDescription">Kids</div>
+        </div>
+        <div class="product">
+            <img id="gear" src="./images/Image_11.jpg" alt="sportsgear">
+            <div class="imageDescription">Sportsgear</div>
+        </div>
+    </div>
+
+    <div id="newToWebsite">
+        <div style="text-decoration: underline; cursor: pointer;">New to Our Website? Click here for a guide.</div>
+
+        <div id="row" style="margin-top: 2rem;">
+            <div class="guide" id="column1">
+
+                <div class="guideOptions">Presentation Page:</div>
+                <div class="guideDescription">See a presentation about the people behind this website.</div>
+
+                <br>
+                <div class="guideOptions">Main Page:</div>
+                <div class="guideDescription">This is where you are now.</div>
+
+                <br>
+                <div class="guideOptions">Query Form:</div>
+                <div class="guideDescription">Ask us any questions that you have.</div>
+
+                <br>
+                <div class="guideOptions">Buy Products:</div>
+                <div class="guideDescription">Browse our prodcuts and order them.</div>
+
+            </div>
+            <div class="guide" id="column2" style="margin-left: 1rem;">
+                <div class="guideOptions">Diagram SVG:</div>
+                <div class="guideDescription">Here, you can find links to navigate through our website.</div>
+
+                <br>
+                <div class="guideOptions">Quiz:</div>
+                <div class="guideDescription">Test your knowledge on sports.</div>
+
+                <br>
+                <div class="guideOptions">Thumbnail Images: </div>
+                <div class="guideDescription">View images here.</div>
+
+                <br>
+                <div class="guideOptions">Student Details: </div>
+                <div class="guideDescription">Find out which webpages each team member created.</div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <a id="backToTop" href="#header">
+        <img id="arrowUp" src="./images/Up_Arrow.png" alt="Up Arrow" />
+        Back To Top
+    </a>
+    <br>
+
+    <a href="./page_editor_sara.html">Page Editor</a>
+
+
+    <script>
+        document.getElementById("newToWebsite").addEventListener("click", showGuide);
+
+        function showGuide() {
+            document.getElementById("column1").style.display = "inline-block";
+            document.getElementById("column2").style.display = "inline-block";
+        }
+
+    </script>
+</body>
+
+</html>
